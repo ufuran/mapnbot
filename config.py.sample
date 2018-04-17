@@ -1,0 +1,6 @@
+token = 'TOKEN_BOT'
+ya_key = 'YANDEX_KEY'
+
+isPool = False
+socket_host = '127.0.0.1'
+socket_port = 7775
