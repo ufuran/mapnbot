@@ -45,7 +45,7 @@ def some_text(message):
         lon, lat = city_point.split(' ')
 
         bot.send_location(mci, lat, lon)
-        bot.send_message(mci, 'telegram.me/mapnbot?start=lat'+str(lat)+'_lon'+str(lon), disable_web_page_preview=True)
+        bot.send_message(mci, 't.me/mapnbot?start=lat'+str(lat)+'_lon'+str(lon), disable_web_page_preview=True)
     except:
         bot.send_message(mci, "Not found.")
 
